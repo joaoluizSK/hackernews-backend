@@ -5,10 +5,10 @@
 
 [![](http://i.imgur.com/67oYe9q.png)](https://www.howtographql.com)
 
-##Context
+## Context
 This code was developed using as base the [GraphQL + NodeJs](https://www.howtographql.com/graphql-js/0-introduction/) example.
 
-####Goal
+#### Goal
 >The goal of this tutorial is to build an API for a Hacker News clone. Here is a quick rundown of what to expect in this tutorial.
 You’ll start by learning the basics of how a GraphQL server works, simply by defining a GraphQL schema for the server and writing corresponding resolver functions. In the beginning, these resolvers will only work with data that’s stored in-memory - so nothing will be persisted beyond the runtime of the server.
 Because nobody wants a server that’s not able to store and persist data, you’re going to add a database layer to it. The database layer is powered by Prisma and will be connected to your GraphQL server via the Prisma client.
@@ -26,7 +26,7 @@ Lastly, you’ll allow the consumers of the API to constrain the list of items t
  - jsonwebtoken & bcryptjs
  
  
-##Executing
+## Executing
  
 ```
 yarn install
