@@ -26,10 +26,11 @@ Lastly, you’ll allow the consumers of the API to constrain the list of items t
  - jsonwebtoken & bcryptjs
  
  
- ##Executing
+##Executing
  
 ```
 yarn install
+prisma deploy
 yarn start
 ```
 
